@@ -27,17 +27,17 @@ star = "**********************************************************************"
 
 print star
 
-ip_araligi_deger = raw_input("IP Aralığını giriniz ( example: 192.168.0 ) ---> ")
+ip_araligi_deger = raw_input("Enter the IP Range ( example: 192.168.0 ) ---> ")
 
 print star
 
-print "Taranan ip aralığı ",ip_araligi_deger 
+print "Thread range scanned ",ip_araligi_deger 
 
 print star
 
 if ip_araligi_deger == "":
  print star
- print "Geçerli bir ip alığını deneyiniz..."
+ print "Try a valid rope pick ..."
  print star
 
 import sys
@@ -74,15 +74,15 @@ print star
 
 import os
 
-print "Geçerli işletim sistemi",os.name
-print "Ağ Durumu"
-print "Aktif Ipler  [ ",aktif," ]"
-print "Pasif IPler [ ",pasif," ]"
-print "Yanıt Yok  [ ",yanit_yok," ]"
+print "Current operating system",os.name
+print "Network Status"
+print "Active Threads [ ",aktif," ]"
+print "Passive IPs [ ",pasif," ]"
+print "No answer  [ ",yanit_yok," ]"
 
 print star
 
-bitis_mesaj = "Tarama tamamlandı.."
+bitis_mesaj = "Scan completed ..."
 
 print bitis_mesaj
 
