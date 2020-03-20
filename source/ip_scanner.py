@@ -27,7 +27,7 @@ star = "**********************************************************************"
 
 print star
 
-ip_araligi_deger = raw_input("Enter the IP Range ( example: 192.168.0 ) ---> ")
+ip_araligi_deger = raw_input("Enter the IP Range, enter the first part of the ip address excluding the hosts ( example: 192.168.0 ) ---> ")
 
 print star
 
